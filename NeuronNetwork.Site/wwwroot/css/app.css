@@ -41,10 +41,20 @@ a, .btn-link {
     width: 100%;
     z-index: 1000;
 }
-
-    #blazor-error-ui .dismiss {
-        cursor: pointer;
-        position: absolute;
-        right: 0.75rem;
-        top: 0.5rem;
-    }
+.img-left{
+    float:left;
+}
+.makeLarger {
+    width: 15% !important;
+    transition: all linear 0.05s;
+}
+.makeLarger:hover {
+    width: 30% !important;
+    transition: all linear 0.2s;
+}
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
