@@ -44,6 +44,12 @@ a, .btn-link {
 .img-left{
     float:left;
 }
+.carousel.slide img{
+    max-height:700px;
+    max-width: 1600px;
+    min-width: 900px;
+    overflow:hidden;
+}
 .makeLarger {
     width: 15% !important;
     transition: all linear 0.05s;
